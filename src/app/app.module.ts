@@ -3,10 +3,11 @@ import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { CalculadoraComponent } from './calculadora/calculadora.component';
+import { FormComponent } from './form/form.component';
+import { ResultComponent } from './result/result.component';
 
 @NgModule({
-  declarations: [AppComponent, CalculadoraComponent],
+  declarations: [AppComponent, FormComponent, ResultComponent],
   imports: [BrowserModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent],
